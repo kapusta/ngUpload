@@ -1,3 +1,8 @@
+# 0.3.7
+
+* Added simple validation to make sure a file has been selected before attempting to make the iframe and upload.
+
+
 # 0.3.6
 
 * #41 Prevent file from uploading if the submit element is disabled
