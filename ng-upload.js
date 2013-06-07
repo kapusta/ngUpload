@@ -62,7 +62,7 @@ angular.module('ngUpload', [])
           if (!form.find("input[type='file']")[0].value) {
             alert("There is no file chosen yet.");
             return;
-          };
+          }
 
           // create a new iframe
           var iframe = angular.element("<iframe id='upload_iframe' name='upload_iframe' border='0' width='0' height='0' style='width: 0px; height: 0px; border: none; display: none' />");
